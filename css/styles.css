@@ -1,0 +1,155 @@
+body {
+
+  font-family: 'Montserrat', sans-serif;
+  color: #444444;
+}
+
+h1 {
+  font-family: 'Ubuntu-Black', sans-serif;
+  font-size: 2.5rem;
+  color: #fff;
+  line-height: 1.5;
+  margin: 10% 10%;
+  font-weight: bold;
+}
+
+h5 {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 1.5rem;
+  color: black;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+span {
+  font-family: 'Ubuntu-Black', sans-serif;
+  color: #DA0037;
+}
+
+p {
+  line-height: 1.5;
+  font-size: 1rem;
+  margin-top: 3%;
+  padding: 3% 3%;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+
+
+}
+
+.h1 {
+  font-family: 'Ubuntu-Black', sans-serif;
+  font-size: 2.5rem;
+  color: black;
+  line-height: 1.5;
+  margin: 10% 10%;
+  font-weight: bold
+}
+
+/*id*/
+#mainsection {
+  text-align: left;
+  background-image: url(https://scontent.fmnl4-6.fna.fbcdn.net/v/t1.6435-9/123047087_156068559571282_125679408856123150_n.jpg?_nc_cat=108&ccb=1-3&_nc_sid=e3f864&_nc_ohc=c6tNG2yXfLIAX9MB3B7&_nc_ht=scontent.fmnl4-6.fna&oh=b1fa4285cc7f9e2c1c908fea44f5cbe7&oe=60D5F9E5);
+  background-size: cover;
+  opacity: 2;
+}
+
+/*navbar and mainscreen*/
+.navbar {
+  padding: 0 0 0 4.5rem;
+  opacity: 1;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu-Black-Bold';
+  font-weight: bolder;
+  font-size: 3rem;
+}
+
+.nav-item {
+  font-size: 3rem;
+  margin: 0% 3%;
+}
+
+.nav-link {
+  font-family: 'Ubuntu-Black-Bold';
+  font-size: 1.25rem;
+}
+
+.main-image {
+  width: 70%;
+  border-radius: 25px 25px 25px 25px;
+  margin: 10% 10% 10% 20%;
+
+}
+.img-main{
+  text-align: center;
+}
+.button{
+
+  margin: 40px 15px 40px 15px;
+
+}
+
+
+/*PRODUCTS*/
+#products {
+  padding: 50px 100px;
+  text-align: center;
+  background-color: #FFFDD0;
+}
+
+.card {
+  margin: 2% 2.5%;
+  border: 2.5px solid;
+  border-color: black;
+}
+
+.product-h1 {
+  font-family: 'Dela Gothic One-Black-Bold', cursive;
+  font-size: 2.5rem;
+  text-align: center;
+  line-height: 1.5;
+}
+
+
+#featured {
+  background-color: #FFFDD0;
+  padding: 2% 2% 0;
+
+
+}
+
+
+
+#footer{
+  background-color: #171717;
+  padding: 5% 15% 0;
+  text-align: center;
+
+
+
+}
+.Copyright{
+  margin: 0 15%;
+}
+.i2{
+  color:#DA0037;
+  padding: 2% 4%;
+}
+.i2:hover{
+  color: white;
+}
+
+@media (max-width:764px) {
+  .nav-link {
+    text-align: right;
+    font-size: 3rem;
+  }
+
+
+
+
+}
